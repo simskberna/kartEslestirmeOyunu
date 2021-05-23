@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <script src="script.js" async></script>
+    <title>Card Matching Game</title>
+</head>
+<body>
+    <h1 class="page-title" style="font-family: 'Press Start 2P', cursive;">Card Matching Game</h1>
+    <div class="overlay-text visible" style="font-family: 'Press Start 2P', cursive;">
+        Click to Start <button style=" border-radius:50%;height: 100px;width:100px;" ><a href="uc.html">GO TO 3rd LEVEL</a></button>
+        
+    </div>
+  <div id="game-over-text" class="overlay-text " style="font-family: 'Press Start 2P', cursive;">
+        GAME OVER
+        <span class="overlay-text-small " style="font-family: 'Press Start 2P', cursive;">Click to Restart</span>
+        <button style=" border-radius:50%;height: 100px;width:100px;" ><a href="baslangic.html">BACK TO START</a></button>
+    </div>
+    <div id="victory-text" class="overlay-text " style="font-family: 'Press Start 2P', cursive;">
+        VICTORY 
+        <span class="overlay-text-small" style="font-family: 'Press Start 2P', cursive;">Click to Restart</span>
+        <button style=" border-radius:50%;height: 100px;width:100px;" ><a href="uc.html">GO TO 3rd LEVEL</a></button>
+    </div>
+    
+    <div class="game-container">
+        <div class="game-info-container">
+            <div class="game-info">
+                Time <span id="time-remaining">100</span>
+
+            </div>
+            <div class="game-info">
+                Points <span id="points">0</span>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-back card-face">
+                <img class="space" src="Assets/Images/space.png">
+            </div>
+            <div class="card-front card-face">
+                <img class="card-value" src="Assets/Images/planets/jupiter.png">
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-back card-face">
+                <img class="space" src="Assets/Images/space.png">
+            </div>
+            <div class="card-front card-face">
+                <img class="card-value" src="Assets/Images/planets/jupiter.png">
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-back card-face">
+                <img class="space" src="Assets/Images/space.png">
+            </div>
+            <div class="card-front card-face">
+                <img class="card-value" src="Assets/Images/planets/mars.png">
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-back card-face">
+                <img class="space" src="Assets/Images/space.png">
+            </div>
+            <div class="card-front card-face">
+                <img class="card-value" src="Assets/Images/planets/mars.png">
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-back card-face">
+                <img class="space" src="Assets/Images/space.png">
+            </div>
+            <div class="card-front card-face">
+                <img class="card-value" src="Assets/Images/planets/red.png">
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-back card-face">
+                <img class="space" src="Assets/Images/space.png">
+            </div>
+            <div class="card-front card-face">
+                <img class="card-value" src="Assets/Images/planets/red.png">
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-back card-face">
+                <img class="space" src="Assets/Images/space.png">
+            </div>
+            <div class="card-front card-face">
+                <img class="card-value" src="Assets/Images/planets/saturn.png">
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-back card-face">
+                <img class="space" src="Assets/Images/space.png">
+            </div>
+            <div class="card-front card-face">
+                <img class="card-value" src="Assets/Images/planets/saturn.png">
+            </div>
+        </div>
+ 
+
+    </div>
+    
+</body>
+</html>
